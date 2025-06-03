@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Join SportHub membership for exclusive access to world-class sports facilities">
+    <meta name="keywords" content="sports membership, gym membership, sports facilities access">
+    <meta name="author" content="SportHub">
+    <title>Membership - SportHub</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <nav class="nav-container">
+            <a href="index.html" class="logo">Sport<span>Site</span></a>
+            <button class="menu-btn" id="menuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html"><i class="fas fa-home"></i>Home</a></li>
+                <li><a href="sports.html"><i class="fas fa-basketball-ball"></i>Sports</a></li>
+                <li><a href="events.html"><i class="fas fa-calendar"></i>Events</a></li>
+                <li><a href="schedule.html"><i class="fas fa-clock"></i>Schedule</a></li>
+                <li><a href="facilities.html"><i class="fas fa-building"></i>Facilities</a></li>
+                <li><a href="news.html"><i class="fas fa-newspaper"></i>News</a></li>
+                <li><a href="membership.html" class="active"><i class="fas fa-user"></i>Membership</a></li>
+                <li><a href="contact.html"><i class="fas fa-envelope"></i>Contact</a></li>
+            </ul>
+        </nav>
+        <div class="nav-overlay" id="navOverlay"></div>
+    </header>
+
+    <!-- Membership Section -->
+    <section class="membership-section" id="membership">
+        <h2>Pilihan Membership</h2>
+        
+        <!-- Membership Benefits -->
+        <div class="benefits-section">
+            <h3>Keuntungan Menjadi Member</h3>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <i class="fas fa-dumbbell"></i>
+                    <h4>Akses Fasilitas</h4>
+                    <p>Akses penuh ke semua fasilitas olahraga modern kami</p>
+                </div>
+                <div class="benefit-card">
+                    <i class="fas fa-user-friends"></i>
+                    <h4>Personal Trainer</h4>
+                    <p>Bimbingan dari pelatih profesional bersertifikat</p>
+                </div>
+                <div class="benefit-card">
+                    <i class="fas fa-calendar-check"></i>
+                    <h4>Kelas Eksklusif</h4>
+                    <p>Akses ke kelas-kelas olahraga eksklusif</p>
+                </div>
+                <div class="benefit-card">
+                    <i class="fas fa-percent"></i>
+                    <h4>Diskon Khusus</h4>
+                    <p>Potongan harga untuk berbagai program dan event</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Membership Plans -->
+        <div class="membership-plans">
+            <div class="plan-card">
+                <div class="plan-header">
+                    <h3 class="plan-name">Basic</h3>
+                    <div class="plan-price">
+                        <span class="currency">Rp</span>
+                        <span class="amount">299K</span>
+                        <span class="period">/bulan</span>
+                    </div>
+                </div>
+                <ul class="plan-features">
+                    <li><i class="fas fa-check"></i>Akses ke gym dasar</li>
+                    <li><i class="fas fa-check"></i>Kelas fitness dasar</li>
+                    <li><i class="fas fa-check"></i>Konsultasi nutrisi</li>
+                    <li><i class="fas fa-check"></i>Loker pribadi</li>
+                    <li><i class="fas fa-check"></i>Akses WiFi</li>
+                </ul>
+                <a href="#registration" class="plan-button">Pilih Paket</a>
+            </div>
+
+            <div class="plan-card popular">
+                <div class="popular-tag">Most Popular</div>
+                <div class="plan-header">
+                    <h3 class="plan-name">Pro</h3>
+                    <div class="plan-price">
+                        <span class="currency">Rp</span>
+                        <span class="amount">499K</span>
+                        <span class="period">/bulan</span>
+                    </div>
+                </div>
+                <ul class="plan-features">
+                    <li><i class="fas fa-check"></i>Semua fitur Basic</li>
+                    <li><i class="fas fa-check"></i>Akses ke semua kelas</li>
+                    <li><i class="fas fa-check"></i>Personal trainer</li>
+                    <li><i class="fas fa-check"></i>Akses spa & sauna</li>
+                    <li><i class="fas fa-check"></i>Diskon 20% sport shop</li>
+                </ul>
+                <a href="#registration" class="plan-button">Pilih Paket</a>
+            </div>
+
+            <div class="plan-card">
+                <div class="plan-header">
+                    <h3 class="plan-name">Elite</h3>
+                    <div class="plan-price">
+                        <span class="currency">Rp</span>
+                        <span class="amount">799K</span>
+                        <span class="period">/bulan</span>
+                    </div>
+                </div>
+                <ul class="plan-features">
+                    <li><i class="fas fa-check"></i>Semua fitur Pro</li>
+                    <li><i class="fas fa-check"></i>Program khusus atlet</li>
+                    <li><i class="fas fa-check"></i>Nutrisionis pribadi</li>
+                    <li><i class="fas fa-check"></i>Akses VIP</li>
+                    <li><i class="fas fa-check"></i>Diskon 40% sport shop</li>
+                </ul>
+                <a href="#registration" class="plan-button">Pilih Paket</a>
+            </div>
+        </div>
+
+        <!-- Registration Form -->
+        <div class="registration-section" id="registration">
+            <h3>Formulir Pendaftaran</h3>
+            <form class="registration-form" id="membershipForm">
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label for="fullName">Nama Lengkap</label>
+                        <input type="text" id="fullName" name="fullName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Nomor Telepon</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="birthDate">Tanggal Lahir</label>
+                        <input type="date" id="birthDate" name="birthDate" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="membershipPlan">Pilihan Paket</label>
+                        <select id="membershipPlan" name="membershipPlan" required>
+                            <option value="">Pilih Paket Membership</option>
+                            <option value="basic">Basic</option>
+                            <option value="pro">Pro</option>
+                            <option value="elite">Elite</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="startDate">Tanggal Mulai</label>
+                        <input type="date" id="startDate" name="startDate" required>
+                    </div>
+                </div>
+                <div class="form-group full-width">
+                    <label for="address">Alamat</label>
+                    <textarea id="address" name="address" required></textarea>
+                </div>
+                <div class="form-group full-width">
+                    <label for="healthInfo">Informasi Kesehatan (Opsional)</label>
+                    <textarea id="healthInfo" name="healthInfo" placeholder="Tuliskan jika ada riwayat penyakit atau kondisi kesehatan khusus"></textarea>
+                </div>
+                <div class="form-group checkbox">
+                    <input type="checkbox" id="terms" name="terms" required>
+                    <label for="terms">Saya menyetujui syarat dan ketentuan yang berlaku</label>
+                </div>
+                <button type="submit" class="submit-button">
+                    <span>Daftar Sekarang</span>
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </form>
+        </div>
+
+        <!-- FAQ Section -->
+        <div class="faq-section">
+            <h3>Frequently Asked Questions</h3>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h4>Bagaimana cara membatalkan membership?</h4>
+                    <p>Anda dapat membatalkan membership dengan menghubungi customer service kami minimal 7 hari sebelum periode berakhir.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Apakah membership bisa dipindahtangankan?</h4>
+                    <p>Membership bersifat personal dan tidak dapat dipindahtangankan ke orang lain.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Berapa lama masa aktif membership?</h4>
+                    <p>Masa aktif membership adalah 30 hari dan dapat diperpanjang sesuai kebutuhan.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Apakah ada diskon untuk pelajar?</h4>
+                    <p>Ya, kami menyediakan diskon khusus untuk pelajar dan mahasiswa dengan menunjukkan kartu identitas yang valid.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">SportSite</div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 SportSite. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 
